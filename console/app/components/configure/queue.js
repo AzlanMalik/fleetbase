@@ -13,7 +13,7 @@ export default class ConfigureQueueComponent extends Component {
     @tracked sqsPrefix = null;
     @tracked sqsQueue = null;
     @tracked sqsSuffix = null;
-    @tracked beanstalkdHost = 'localhost';
+    @tracked beanstalkdHost = '';
     @tracked beanstalkdQueue = 'default';
 
     /**
