@@ -29,7 +29,7 @@ services:
       dockerfile: docker/Dockerfile
       target: events-dev
       args:
-        ENVIRONMENT: development
+        ENVIRONMENT: production
     environment:
       DATABASE_URL: "mysql://root@database/fleetbase"
       QUEUE_CONNECTION: redis
